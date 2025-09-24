@@ -1,0 +1,31 @@
+{
+  "name": "workspace",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "hardhat compile",
+    "test": "hardhat test | cat",
+    "deploy": "hardhat run scripts/deploy.ts",
+    "risk:cli": "ts-node ai/riskScorer.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rgreposito/VectoriumTEST.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rgreposito/VectoriumTEST/issues"
+  },
+  "homepage": "https://github.com/rgreposito/VectoriumTEST#readme",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^3.0.0",
+    "@types/node": "^24.5.2",
+    "dotenv": "^17.2.2",
+    "hardhat": "^2.22.12",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.2"
+  }
+}
